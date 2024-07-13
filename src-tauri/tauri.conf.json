@@ -1,10 +1,10 @@
 {
   "productName": "n3n-gui",
   "version": "0.0.0",
-  "identifier": "com.tauri.dev",
+  "identifier": "com.0x-jerry.dev",
   "build": {
-    "beforeDevCommand": "pnpm dev",
-    "devUrl": "http://localhost:1420",
+    "beforeDevCommand": "pnpm dev:web",
+    "devUrl": "http://localhost:4420",
     "beforeBuildCommand": "pnpm build",
     "frontendDist": "../dist"
   },
