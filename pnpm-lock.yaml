@@ -10,7 +10,7 @@ dependencies:
     version: 2.0.0-beta.15
   '@tauri-apps/plugin-shell':
     specifier: '>=2.0.0-beta.0'
-    version: 2.0.0-beta.8
+    version: 2.0.0-beta.9
   vue:
     specifier: ^3.3.4
     version: 3.4.31(typescript@5.5.3)
@@ -409,6 +409,11 @@ packages:
     engines: {node: '>= 18.18', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
     dev: false
 
+  /@tauri-apps/api@2.0.0-beta.16:
+    resolution: {integrity: sha512-YGjkR9HxS/YyIoqoXDkk8o9Yy5NW6u9YxzeqEodwwOUoeS0nac6mzLTW3VYIuSelHmyUQCgbyENVY6e5CJXA4Q==}
+    engines: {node: '>= 18.18', npm: '>= 6.6.0', yarn: '>= 1.19.1'}
+    dev: false
+
   /@tauri-apps/cli-darwin-arm64@2.0.0-beta.22:
     resolution: {integrity: sha512-Ofhythvg1Ks2IM87WUYNtgFzm21aU1Zn+8QP81lJy9Y7ZGMxP8FYfqeHz6GIWKI+CYf6I77HA8LHkT9pyE5PYg==}
     engines: {node: '>= 10'}
@@ -520,10 +525,10 @@ packages:
       '@tauri-apps/cli-win32-x64-msvc': 2.0.0-beta.22
     dev: true
 
-  /@tauri-apps/plugin-shell@2.0.0-beta.8:
-    resolution: {integrity: sha512-rFXI6MvsCdSGbuKbDu/NaOePREb9YTVTdeugHdvvljnKWW3dvmThBb2h/8Hxj+Z7Cd8MUoRxPeJWUZbPbJ2Imw==}
+  /@tauri-apps/plugin-shell@2.0.0-beta.9:
+    resolution: {integrity: sha512-BXBWRM9uaW3poT7O6py0Hm50dJUu6zuB/v4HOX727euF7uetKU79+W/0KBjtuLxIzXloCPNecg6Ti7x7XsGYjw==}
     dependencies:
-      '@tauri-apps/api': 2.0.0-beta.15
+      '@tauri-apps/api': 2.0.0-beta.16
     dev: false
 
   /@types/estree@1.0.5:
